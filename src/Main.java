@@ -9,7 +9,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Choose an option : 1, 2, 3, 4 or 5");
-        System.out.println(" 1 for addition, 2 for substraction, 3 for multiplication, 4 for division or 5 to exit");
+        System.out.println(" 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division or 5 to exit");
         operator = input.next().charAt(0);
 
         System.out.println("Enter first number: ");
@@ -23,6 +23,10 @@ public class Main {
             case '1':
                 result = number1 + number2;
                 System.out.println(number1 + " + " + number2 + " = " + result);
+                break;
+            case '2':
+                result = number1 - number2;
+                System.out.println(number1 + " - " + number2 + " = " + result);
                 break;
         }
 
