@@ -1,5 +1,3 @@
-import java.net.SocketOption;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
